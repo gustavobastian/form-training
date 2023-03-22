@@ -177,11 +177,25 @@ label{
     margin-bottom: 1%;
 }
 button{
-    background-color: rgb(77, 94, 77);
+    background-color: #596D48;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding-top:10px;    
     padding-bottom:10px;
     border-radius: 5px;
+}
+input{
+    display:flex;
+    border-style: solid;
+    box-shadow: 0 0 5pt 0.5pt #E5E7EB;
+
+}
+.myInput{    
+    border-color:#E5E7EB;
+    background-color: rgb(221, 221, 247);
+}
+.myInput:focus {        
+    border-color:blue;
+    background-color: rgb(155, 155, 197);
 }
