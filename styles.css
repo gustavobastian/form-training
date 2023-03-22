@@ -108,8 +108,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    height: 33%;
-    
+    height: 33%;    
     background-color: rgb(235, 234, 234);
 }
 .text1{
@@ -188,14 +187,17 @@ button{
 input{
     display:flex;
     border-style: solid;
-    box-shadow: 0 0 5pt 0.5pt #E5E7EB;
+    border-width: 1px;   
+    outline: none !important;
+
+    box-shadow: 10px 5px 5px  #E5E7EB;
 
 }
 .myInput{    
-    border-color:#E5E7EB;
+    border-color:black;
     background-color: rgb(221, 221, 247);
 }
-.myInput:focus {        
-    border-color:blue;
-    background-color: rgb(155, 155, 197);
+.myInput:focus {            
+    border-color:blue !important;    
+    background-color: rgb(180, 180, 204);
 }
