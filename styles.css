@@ -1,3 +1,8 @@
+@font-face{
+    font-family: myFont;
+    src:url(./font/Norse-Bold.otf)
+}
+
 body{
     display: flex;
     flex-direction: row;
@@ -48,6 +53,7 @@ body{
     margin-bottom: 35%;
     padding-bottom: 10px;        
     height: 90%;
+    font-family: myFont;
 }
 .sub{
     margin-left: 3px;
